@@ -10,7 +10,7 @@ let charCount = {}
 }
 	}
 	for( let key in charCount){
-		if(charCount[key] === 1 ){
+		if(charCount[key] == 1 ){
 				return key
 		}
 	}
