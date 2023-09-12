@@ -2,7 +2,7 @@ function firstNonRepeatedChar(str) {
  // Write your code here
 	
 let charCount = {}
-	for(int i=0;i<str.length ; i++){
+	for(let i=0;i<str.length ; i++){
 			if (charCount.hasOwnproperty(str[i])){
 					charCount[str[i]]++
 			}else{
