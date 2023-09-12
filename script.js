@@ -10,8 +10,8 @@ let charCount = {}
 }
 	}
 	for( let key in charCount){
-		if(charCount[key] == 1 ){
-				return key
+		if(charCount[key] === 1 ){
+				return key.toString()
 		}
 	}
 	return null;
